@@ -4,12 +4,12 @@ export default function Home() {
   return (
     <main className="min-h-screen p-8 bg-background">
       <div className="max-w-4xl mx-auto space-y-12">
-        {/* Header */}
+
         <div className="text-center mb-8">
           <h1 className="text-3xl font-bold mb-2">Demo Proof</h1>
         </div>
 
-        {/* NextJS Section */}
+       
         <section className="border-2 border-border rounded-lg p-6 bg-card">
           <h2 className="text-xl font-semibold mb-4 text-blue-600">NextJS</h2>
           <div className="mb-4">
@@ -17,7 +17,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* TailwindCSS Section */}
+        
         <section className="border-2 border-border rounded-lg p-6 bg-card">
           <h2 className="text-xl font-semibold mb-4 text-blue-600">TailwindCSS</h2>
           <div className="mb-4">
@@ -25,7 +25,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* ReactJS Section */}
+        
         <section className="border-2 border-border rounded-lg p-6 bg-card">
           <h2 className="text-xl font-semibold mb-4 text-blue-600">ReactJS</h2>
           <div className="mb-4">
@@ -37,7 +37,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* ShadCN Section */}
+       
         <section className="border-2 border-border rounded-lg p-6 bg-card">
           <h2 className="text-xl font-semibold mb-4 text-blue-600">ShadCN</h2>
           <div className="mb-4">
